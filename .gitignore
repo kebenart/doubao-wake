@@ -1,0 +1,19 @@
+# 讯飞专有 SDK(请自行从 xfyun.cn 下载,勿提交)
+libs/
+bin/libs/
+bin/resource/ivw70/IVW_*
+bin/testAudio/
+
+# 本地凭据 / 日志 / 缓存(含密钥,绝不提交)
+bin/config.ini
+config.ini
+bin/run.log
+bin/aikit.log
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# 打包产物
+*.zip

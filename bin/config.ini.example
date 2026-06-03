@@ -1,0 +1,18 @@
+; ===== 豆包语音唤醒 配置文件(示例)=====
+; 用法:复制本文件为 config.ini,填入你自己的讯飞凭据即可。
+; 改完保存后:右键托盘图标 -> 重新载入配置 生效(mic_device / 凭据 改动需重启)。
+[doubao]
+; --- 讯飞开放平台凭据(必填,在 https://console.xfyun.cn 你的应用里获取)---
+appid = 你的讯飞AppID
+apikey = 你的讯飞APIKey
+apisecret = 你的讯飞APISecret
+
+; --- 豆包电脑版的全局快捷键(豆包以后改了快捷键就改这两行)---
+wake_hotkey = alt+d
+hangup_hotkey = alt+q
+
+; --- 其它可调项 ---
+beep = 1               ; 提示音 1=开 0=关
+wake_beep_delay = 0.5  ; 唤起提示音延迟秒数(等豆包语音界面起来再响)
+cooldown = 2.0         ; 同一动作冷却秒数(防连发)
+mic_device = -1        ; 麦克风设备号,-1=系统默认(改这项需重启)
